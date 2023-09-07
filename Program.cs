@@ -25,10 +25,6 @@ internal class Program
         {
             Console.WriteLine("|{0,-36} | {1,-30} | {2,-10} | {3, -7} |", lstClase[j].Id, lstClase[j].Nombre, lstClase[j].Email, lstClase[j].Edad);
         }
-        // foreach (Estudiantes est in lstClase)
-        // {
-        //     Console.WriteLine("|{0,-36} | {1,-30} | {2,-10} | {3, -7} |", est.Id, est.Nombre, est.Email, est.Edad);
-        // }
         Console.ReadKey();
     }        
 }
